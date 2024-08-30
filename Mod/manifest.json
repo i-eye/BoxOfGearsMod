@@ -1,0 +1,11 @@
+{
+    "name": "Box_Of_Gears",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/i-eye/BoxOfGearsMod",
+    "description": "Box of Gears is the worst item with the worst code you have ever seen. But you should experience it at least once (:",
+    "dependencies":[	
+	"bbepis-BepInExPack-5.4.2117",
+        "RiskofThunder-R2API_RecalculateStats-1.4.0",
+	"RiskofThunder-R2API_Items-1.0.3"
+	]
+}
