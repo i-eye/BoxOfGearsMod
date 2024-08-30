@@ -11,7 +11,7 @@ namespace IEye.BoxOfGears
 {
     [BepInDependency(ItemAPI.PluginGUID)]
 
-    //[BepInDependency(LanguageAPI.PluginGUID)] // NO LANGUAGE API IT'S FOR FILTHY HOPOO ENJOYERS
+    [BepInDependency(LanguageAPI.PluginGUID)] // NO LANGUAGE API IT'S FOR FILTHY HOPOO ENJOYERS
 
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
 
@@ -57,7 +57,7 @@ namespace IEye.BoxOfGears
             boxItemDef.nameToken = "IEYE_GEARBOX_NAME";
             boxItemDef.pickupToken = "IEYE_GEARBOX_PICKUP";
             boxItemDef.descriptionToken = "IEYE_GEARBOX_DESC";
-            boxItemDef.loreToken = "CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP_CLAPTRAP";
+            boxItemDef.loreToken = "IEYE_GEARBOX_LORE";
 
             boxItemDef._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier1Def.asset").WaitForCompletion();
 
